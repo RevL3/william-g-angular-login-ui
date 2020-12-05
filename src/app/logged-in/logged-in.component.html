@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="box">
+    <p> Email: {{ myLoginInfo.email | uppercase }}</p>
+    <p> Name: {{ myLoginInfo.firstName | firstUppercase }} {{ myLoginInfo.lastName | firstUppercase }} </p>
+    <p> Email: {{ myLoginInfo.year }}</p>
+    <button
+    routerLink=""
+    class="btn btn-outline-info">Logout</button>
+  </div>
+</div>
+<router-outlet></router-outlet>

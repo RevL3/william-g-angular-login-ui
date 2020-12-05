@@ -1,0 +1,22 @@
+
+.container {
+  display: flex;
+  margin-top: 20vh;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.btn {
+  margin-top: 2vh;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
